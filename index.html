@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>FizzBuzz</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <h1>Open the console to see FizzBuzz in action.</h1>
+      
+      <button type="button" class="btn btn-large btn-danger" onclick="fizzbuzz()">Launch FizzBuzz</button>
+      
+    
+      <!-- Optional JavaScript -->
+    <script type="text/javascript">
+    let emptyArray = []; //Create empty array to store numbers.
+
+    function fizzbuzz() {
+        for(let i = 0; i <= 100; i++) { //Create for loop to write numbers 0-100 to console.
+            if(i % 3 == 0 && i % 5 == 0) { //if both conditions are met, write FizzBuzz
+                emptyArray.push("FizzBuzz");
+            } else if(i % 3 == 0) {     //Must seperate into else if statements due to different desired outputs. Cannot use the or(||) operator. 
+                emptyArray.push("Fizz");
+            } else if(i % 5 == 0) {
+                emptyArray.push("Buzz");
+            } else {
+                emptyArray.push(i);
+            }
+        }
+        console.log(emptyArray); //Log the now full array to the console. 
+    }
+    
+    //We can call the function here automatically upon page load but I have called the function on button click. (see button)
+    
+    </script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

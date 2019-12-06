@@ -1,16 +1,5 @@
 # FizzBuzz
 
-
-
-<h1>Technologies Used</h1>
-<ul>
-  <li>HTML5</li>
-  <li>Bootstrap</li>
-  <li>JavaScript</li>
-</ul>
-
-# Bootstrap-Portfolio
-
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 

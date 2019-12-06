@@ -67,7 +67,7 @@ Contributions are what make the open source community such an amazing place to b
 
 Anitra McCain - [Github](https://github.com/an1tra) - anitra.oursky@gmail.com
 
-Project Link: [https://an1tra.github.io/FizzBuzz](https://an1tra.github.io/FizzBuzz)
+Project Link: [https://an1tra.github.io/FizzBuzz/index.html](https://an1tra.github.io/FizzBuzz/index.html)
 
 
 
